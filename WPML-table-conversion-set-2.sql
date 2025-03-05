@@ -1,0 +1,13 @@
+CREATE OR REPLACE VIEW wp_2_icl_background_task AS SELECT * FROM wp_1_icl_background_task;
+CREATE OR REPLACE VIEW wp_2_icl_content_status AS SELECT * FROM wp_1_icl_content_status;
+CREATE OR REPLACE VIEW wp_2_icl_core_status AS SELECT * FROM wp_1_icl_core_status;
+CREATE OR REPLACE VIEW wp_2_icl_links_post_to_post AS SELECT * FROM wp_1_icl_links_post_to_post;
+CREATE OR REPLACE VIEW wp_2_icl_links_post_to_term AS SELECT * FROM wp_1_icl_links_post_to_term;
+CREATE OR REPLACE VIEW wp_2_icl_locale_map AS SELECT * FROM wp_1_icl_locale_map;
+CREATE OR REPLACE VIEW wp_2_icl_message_status AS SELECT * FROM wp_1_icl_message_status;
+CREATE OR REPLACE VIEW wp_2_icl_mo_files_domains AS SELECT * FROM wp_1_icl_mo_files_domains;
+CREATE OR REPLACE VIEW wp_2_icl_node AS SELECT * FROM wp_1_icl_node;
+CREATE OR REPLACE VIEW wp_2_icl_reminders AS SELECT * FROM wp_1_icl_reminders;
+CREATE OR REPLACE VIEW wp_2_icl_string_batches AS SELECT * FROM wp_1_icl_string_batches;
+CREATE OR REPLACE VIEW wp_2_icl_string_packages AS SELECT * FROM wp_1_icl_string_packages;
+CREATE OR REPLACE VIEW wp_2_icl_string_positions AS SELECT * FROM wp_1_icl_string_positions;
